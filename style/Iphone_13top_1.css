@@ -17,7 +17,6 @@
     display: flex;
     justify-content: center;
     justify-content: space-between;
-
 }
 
 #disp {
@@ -44,8 +43,6 @@
 
 .img_st {
     width: 32px;
-
-
 }
 
 .blc_r_00 {
@@ -56,7 +53,6 @@
 
     display: flex;
     flex-wrap: wrap;
-    /* border-bottom: 1px solid; */
 }
 
 #bottom_hr_right {
@@ -66,7 +62,6 @@
     margin-top: 25px;
     margin-right: 25px;
     margin-bottom: 20px;
-
 }
 
 .blc_001 {
@@ -83,26 +78,22 @@
 }
 
 .st_1 {
-    /* transition: 3s ease; */
-
     width: 197px;
     height: 103px;
     margin: 5px;
     padding: 15px;
 
+    border-color: #d2d2d7;
+
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
-
-    border-color: #d2d2d7;
 }
 
 .st_1:hover {
     border-color: #1d1d1f;
 }
-
 
 .blc_11 {
     width: 490px;
@@ -116,6 +107,6 @@
     top: 0px;
 }
 
-.act {
+.active {
     border: 3px solid #0071E3 !important;
 }

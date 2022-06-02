@@ -20,11 +20,11 @@ let btn_st2 = document.querySelector(".st_2")
 btn_1.forEach(i => {
     i.onclick = () => {
         btn_1.forEach(clr => {
-            clr.classList.remove('act')
+            clr.classList.remove('active')
         });
         scrollTop_two()
         img.src = i.getAttribute("data-info")
-        i.classList.add("act")
+        i.classList.add("active")
     }
 });
 

@@ -1,0 +1,14 @@
+.block_img_bottom {
+    padding: 40px 0 0;
+}
+
+.blc_img_bottom_set {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 14px 0 26px;
+    width: 100%;
+}
+/* .blc_img_bottom_set_left{
+
+} */

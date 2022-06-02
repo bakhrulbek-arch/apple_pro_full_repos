@@ -12,13 +12,10 @@
 body {
     margin: 0 auto;
     height: 200vh;
-    
-    
 }
 
 a {
     text-decoration: none;
-    /* color: #000; */
     color: #0066CC;
     cursor: pointer;
 }
