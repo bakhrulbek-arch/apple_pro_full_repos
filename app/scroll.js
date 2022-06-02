@@ -1,15 +1,14 @@
-// let scrolltop = document.querySelector(".blc_r_00")
-
-// scrolltop.onclick = () => {
-//     // scrollTop()
-//     window.scroll(0, 100);
-// }
 function scrollTop(){
     window.scroll(0, 430);
 }
 function scrollTop_two(){
     window.scroll(0, 730);
 }
+// let scrolltop = document.querySelector(".blc_r_00")
+// scrolltop.onclick = () => {
+//     // scrollTop()
+//     window.scroll(0, 100);
+// }
 
 // let clc_pro = document.querySelectorAll(".blc_r_00")
 // scrolltop.onclick= () =>{
