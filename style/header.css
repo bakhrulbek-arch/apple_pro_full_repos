@@ -5,17 +5,26 @@
     outline: none;
     font-size: 100%;
 
+    scroll-behavior: smooth;
     font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif, 'Poppins', sans-serif;
 }
 
 body {
     margin: 0 auto;
-    height: 500vh;
+    height: 200vh;
+    
+    
 }
 
 a {
     text-decoration: none;
-    color: #000;
+    /* color: #000; */
+    color: #0066CC;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
 }
 
 header {
@@ -101,6 +110,10 @@ header li:hover, img:hover {
     align-items: center;
 }
 
+.href_stck a {
+    color: #000;
+}
+
 .left_stck {
     font-size: 21px;
     font-weight: bolder;
@@ -122,7 +135,6 @@ main {
     font-weight: 400;
     letter-spacing: -.016em;
 
-    padding: 16px 0;
     font-size: 14px;
     color: #1d1d1f;
 }
@@ -181,4 +193,8 @@ main {
 
     background: transparent;
     border: 0;
+}
+
+.blc_1 button:hover {
+    text-decoration: underline;
 }

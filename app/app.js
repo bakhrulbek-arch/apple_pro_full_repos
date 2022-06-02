@@ -1,16 +1,18 @@
 let img = document.querySelector("#disp")
 let btn_0 = document.querySelector(".st_0")
 btn_0.onclick = () => {
+    scrollTop()
     img.style.height = "350px"
     btn_0.style.border = "3px solid #0071E3"
-    btn_01.style.border = "1px solid gray"
+    btn_01.style.border = "1px solid #d2d2d7"
 }
 
 let btn_01 = document.querySelector(".st_01")
 btn_01.onclick = () => {
+    scrollTop()
     img.style.height = "492px"
     btn_01.style.border = "3px solid #0071E3"
-    btn_0.style.border = "1px solid gray"
+    btn_0.style.border = "1px solid #d2d2d7"
 }
 
 let btn_1 = document.querySelectorAll(".st_1")
@@ -20,6 +22,7 @@ btn_1.forEach(i => {
         btn_1.forEach(clr => {
             clr.classList.remove('act')
         });
+        scrollTop_two()
         img.src = i.getAttribute("data-info")
         i.classList.add("act")
     }

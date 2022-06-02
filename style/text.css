@@ -1,0 +1,38 @@
+.blc_right_text_top {
+    font-size: 17px;
+    line-height: 1.47059;
+    color: #1D1D1F;
+    /* opacity: 6; */
+    letter-spacing: -.022em;
+}
+
+.blc_t_width {
+    width: 408px;
+    margin-right: 30px;
+}
+
+#color_blc_right_text {
+    /* box-sizing: border-box; */
+    display: block;
+    color: #bf4800;
+
+}
+
+.blc_right_text_top h1 {
+    font-weight: bold;
+    font-size: 40px;
+    font-weight: small;
+}
+
+.blc_right_text_top p {
+    padding: 25px 0 5px;
+}
+
+.blc_right_text_top button {
+    border: 0 !important;
+    color: #0066CC;
+}
+
+.blc_right_text_top button:hover {
+    text-decoration: underline;
+}
