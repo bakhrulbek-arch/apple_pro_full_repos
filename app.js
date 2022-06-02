@@ -1,6 +1,5 @@
 let img = document.querySelector("#disp")
 let btn_0 = document.querySelector(".st_0")
-
 btn_0.onclick = () => {
     img.style.height = "350px"
     btn_0.style.border = "3px solid #0071E3"
@@ -29,11 +28,11 @@ btn_1.forEach(i => {
 let h1 = document.querySelector("h1")
 let p = document.querySelector("p")
 btn_st2.onclick = () => {
-    btn_st2.style.border = "3px solid #0071E3"
-    btn_st2.innerHTML = "<b>Для отказа дважды кликните</b>"
-}
-
-btn_st2.ondblclick = () => {
-    btn_st2.innerHTML = "<b>Корзина</b>"
-    btn_st2.style.border = "1px solid gray"
+    if (btn_st2.innerText == "Корзина") {
+        btn_st2.innerHTML = "<b>Отменить Заказ</b>"
+        btn_st2.style.border = "3px solid #0071E3"
+    } else {
+        btn_st2.innerHTML = "<b>Корзина</b>"
+        btn_st2.style.border = "1px solid gray"
+    }
 }

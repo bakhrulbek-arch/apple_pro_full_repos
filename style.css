@@ -18,6 +18,18 @@ a {
     color: #000;
 }
 
+/* //viewport */
+.viewport-wrapper {
+    display: block;
+    width: 0px;
+
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+
 header {
     height: 44px;
     background-color: #333333;
@@ -266,6 +278,7 @@ main {
     color: #ADCCE9;
 }
 
+
 .blc_11 {
     width: 490px;
 
@@ -273,8 +286,11 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    position: sticky;
+    top: 0px;
 }
 
 .act {
-    border: 3px solid #0071E3;
+    border: 3px solid #0071E3 !important;
 }
